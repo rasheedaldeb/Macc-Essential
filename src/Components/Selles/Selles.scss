@@ -1,0 +1,49 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  .swiper-slide {
+    width: 400px;
+    max-height: 450px;
+    background-color: var(--bg2);
+    position: relative;
+    // padding-bottom: 50px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    overflow: visible;
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .buttons {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    z-index: 999;
+  }
+  .swiper-btn {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: visible;
+    button {
+      position: absolute;
+    }
+    .right {
+      right: 8px;
+    }
+    .left {
+      left: -32px;
+    }
+  }
+}

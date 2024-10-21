@@ -1,0 +1,39 @@
+header {
+  font-family: "Montserrat", system-ui;
+  color: var(--thirdly);
+  font-weight: 400;
+  background-color: #fff;
+  .top {
+    height: 40px;
+  }
+  .bottom {
+    .menu {
+      span {
+        transition: 0.3s;
+        width: 35px;
+        height: 2px;
+        background-color: var(--thirdly);
+        border-radius: 5px;
+      }
+    }
+  }
+  .mobile-nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--bg);
+    ul {
+      width: 90%;
+      border-bottom: 0.5px solid var(--thirdly);
+    }
+  }
+}
+.rotate-top {
+  position: absolute;
+  transform: rotate(45deg);
+}
+.hidden {
+  display: none;
+}
+.rotate-bottom {
+  transform: rotate(131deg);
+}

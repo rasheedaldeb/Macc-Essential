@@ -1,0 +1,14 @@
+.header {
+  display: block !important;
+  height: 30% !important;
+  button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    background-color: rgba(74, 75, 77, 1);
+  }
+  img {
+    border-radius: 0.5rem;
+  }
+}
